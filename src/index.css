@@ -1,0 +1,61 @@
+.TDL{
+    background-color: black;
+    padding:15px;
+}
+
+h1{
+    
+    text-align: center;
+    color:greenyellow;
+}
+
+.tsk_add{     /*input box and button*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+
+#add{    /*add button*/
+    margin-left: 10px;
+    padding:5px 5px;
+    color: red;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+.task_cont {  /*container for added tasks*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ol{
+    list-style-type: none; /*removing the numbers beside each task*/
+}
+
+li{  /*tasks*/
+    border:5px solid pink;
+    color:orange;
+    background-color:white;
+    width:500px;
+    padding-bottom: 15px;
+    padding-left: 15px ;
+    
+
+}
+    
+
+
+#dlt{ /*delete button*/
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: orange;
+    color: bisque;
+    border-radius: 10px;
+}
+
+
